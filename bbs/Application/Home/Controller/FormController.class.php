@@ -14,8 +14,8 @@ class FormController extends Controller{
     }
     public function vcode(){
 $config =    array(
-    'fontSize'    =>    50,    // 验证码字体大小
-    'length'      =>    15,     // 验证码位数
+    'fontSize'    =>    30,    // 验证码字体大小
+    'length'      =>   3,     // 验证码位数
     'useNoise'    =>    false, // 关闭验证码杂点
 );
 $Verify =     new \Think\Verify($config);
